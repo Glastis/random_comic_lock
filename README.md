@@ -40,5 +40,6 @@ Give script execution rights
 `chmod 775 wget_comic.sh`
 
 # Use
+`xscreensaver-demo`, confirm using monitor 0 and quit (just needed one time)
 `./wget_comic.sh`
 You can create an alias to call it from everywhere.
