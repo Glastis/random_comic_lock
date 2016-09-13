@@ -21,6 +21,7 @@ cp $CONFIG_PATH ./xscreensaver.bkp
 cp xscreensaver_comic.blank xscreensaver_comic
 sed s:'NON_REDONDANT_STRING_HERE':`pwd`: < xscreensaver_comic.blank > xscreensaver_comic
 cp xscreensaver_comic $CONFIG_PATH
+mkdir lock_image
 while [ 1 ];do
     if [ $FLAGG \< 1 ];then
 	FLAGG=10

@@ -40,5 +40,5 @@ Give script execution rights
 `chmod 775 wget_comic.sh`
 
 # Use
-`./wget_comic`
+`./wget_comic.sh`
 You can create an alias to call it from everywhere.
