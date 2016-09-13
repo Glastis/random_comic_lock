@@ -1,6 +1,10 @@
 # Random Comic Lock Screen
 This script make possible to lock your linux with a random comic from explosm.net using xscreensaver
 
+# explosm.net
+
+Nice webside with lot of fun and content. All comics are downloads from this website. If you like comics, you really should visit explosm.net.
+
 # Compatibility
 Tested with Ubuntu 14.04 - Trusty
 Should works with others linux.
