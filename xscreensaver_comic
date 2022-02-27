@@ -32,7 +32,7 @@ dpmsOff:	4:00:00
 grabDesktopImages:  True
 grabVideoFrames:    False
 chooseRandomImages: True
-imageDirectory:	/home/glastis/projets/random_comic_lock/lock_image
+imageDirectory:	/home/glastis/bin/random_comic_lock/lock_image
 
 mode:		one
 selected:	145

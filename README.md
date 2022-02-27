@@ -3,41 +3,41 @@ This script make possible to lock your linux with a random comic from explosm.ne
 
 # explosm.net
 
-Nice webside with lot of fun and content. All comics are downloads from this website. If you like comics, you really should visit explosm.net.
+All comics are downloads from this website. If you like absurd comics, you really should visit explosm.net.
 
 # Compatibility
-Tested with Ubuntu 14.04 - Trusty
-Should works with others linux.
+Tested with Debian 11 - Bullseye
 
 # Dependencies
-## Needed:
-### Xscreensaver
+
+### Debian/Ubuntu
+```
+apt-get install xscreensaver xscreensaver-gl xscreensaver-gl-extra xscreensaver-data xscreensaver-data-extra imagemagick imagemagick-common wget curl
+```
+
+### Packages
+#### Xscreensaver
 xscreensaver
 xscreensaver-gl
 xscreensaver-gl-extra
-### Image modifications
-imagemagick
-### Web page download
-wget
-### Building
-make
-gcc
-
-## Might needed:
 xscreensaver-data
 xscreensaver-data-extra
+
+#### Image modifications
+imagemagick
 imagemagick-common
 
+#### Web page download
+wget
+curl
+
 # Install
-## Step 1
-Install dependencies.
+Install dependencies, see before.
 
-## Step 2
-run `make`
-
-## Step 3
-Give script execution rights
-`chmod 775 wget_comic.sh`
+Give to the scripts the execution right.
+```
+chmod +x lock_comic.sh create_image.sh
+```
 
 # Use
 `xscreensaver-demo`, confirm using monitor 0 and quit (just needed one time)
