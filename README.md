@@ -40,6 +40,6 @@ chmod +x lock_comic.sh create_image.sh
 ```
 
 # Use
-`xscreensaver-demo`, confirm using monitor 0 and quit (just needed one time)
-`./wget_comic.sh`
-You can create an alias to call it from everywhere.
+Run `xscreensaver-demo`, confirm using monitor 0 and quit (just needed one time).
+
+Then `./wget_comic.sh`.
